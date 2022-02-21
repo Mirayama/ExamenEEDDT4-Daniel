@@ -8,6 +8,7 @@ public class EJ5_Documentación {
 
 	public static void main(String[] args) {
 		System.out.println(operacionSuma(5, 10));
+		saludo();
 	}
 
 	/**
@@ -22,4 +23,8 @@ public class EJ5_Documentación {
 		int suma = val1 + val2;
 		return suma;
 	}	
+	
+	public static void saludo() {
+		System.out.println("Saludos amigo");
+	}
 }
